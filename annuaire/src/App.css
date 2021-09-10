@@ -2,8 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #d3d3d3;
   text-align: center;
+  background: rgb(187, 184, 240);
+  background: linear-gradient(90deg, rgba(187, 184, 240, 1) 0%, rgba(153, 153, 232, 1) 46%, rgba(179, 214, 251, 1) 100%);
 }
 
 .app {

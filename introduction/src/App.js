@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import { Component } from 'react';
 import './App.css';
+import Recherche from './Composants/Recherche.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  state = {
+    data: [],
+    error: ''
+  }
+
+  onSearch = (param1, param2) => {
+    console.log(param1, param2)
+  }
+
+
+  render() {
+    return (
+      <div >
+        <h1> Annuaire des administrations </h1>
+        <Recherche onHaythem={this.onSearch} />
+      </div>
+    );
+
+  }
+
+
 }
 
 export default App;
