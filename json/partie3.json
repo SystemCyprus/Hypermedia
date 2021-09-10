@@ -1,0 +1,72 @@
+[{
+    "nom": "Einstein",
+    "prenom": "Albert",
+    "nVol": "45622",
+    "nbrBagages": "2",
+    "noClient": "154565",
+    "Adresse": {
+        "Num_CIV": "123",
+        "Rue": "Principale",
+        "CP": "f9f3k3"
+    }
+},
+{
+    "nom": "Lavoisier",
+    "prenom": "Antoine",
+    "nVol": "45644",
+    "nbrBagages": "4",
+    "noClient": "235002",
+    "Adresse": {
+        "Num_CIV": "789",
+        "Rue": "Gouin",
+        "CP": "h3i5b7"
+    }
+},
+{
+    "nom": "Raimbault",
+    "prenom": "Arthur",
+    "nVol": "12896",
+    "nbrBagages": "2",
+    "noClient": "54452",
+    "Adresse": {
+        "Num_CIV": "345",
+        "Rue": "Expo",
+        "CP": "k4h5h6"
+    }
+},
+{
+    "nom": "Poincaré",
+    "prenom": "Henri",
+    "nVol": "45644",
+    "nbrBagages": "3",
+    "noClient": "781201",
+    "Adresse": {
+        "Num_CIV": "555",
+        "Rue": "Principale",
+        "CP": "d3g4g5"
+    }
+},
+{
+    "nom": "Lavoisier",
+    "prenom": "Antoine",
+    "nVol": "45644",
+    "nbrBagages": "1",
+    "noClient": "785154",
+    "Adresse": {
+        "Num_CIV": "456",
+        "Rue": "Germain",
+        "CP": "j8d7a6"
+    }
+},
+{
+    "nom": "Einstein",
+    "prenom": "Albert",
+    "nVol": "75906",
+    "nbrBagages": "0",
+    "noClient": "75906",
+    "Adresse": {
+        "Num_CIV": "888",
+        "Rue": "Guillemet",
+        "CP": "g0i7e3"
+    }
+}]

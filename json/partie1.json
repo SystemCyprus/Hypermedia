@@ -1,0 +1,44 @@
+[
+    {
+        "nom": "Einstein",
+        "prenom": "Albert",
+        "nVol": "45622",
+        "nbrBagages": "2",
+        "noClient": "154565"
+    },
+    {
+        "nom": "Lavoisier",
+        "prenom": "Antoine",
+        "nVol": "45644",
+        "nbrBagages": "4",
+        "noClient": "235002"
+    },
+    {
+        "nom": "Raimbault",
+        "prenom": "Arthur",
+        "nVol": "12896",
+        "nbrBagages": "2",
+        "noClient": "54452"
+    },
+    {
+        "nom": "Poincaré",
+        "prenom": "Henri",
+        "nVol": "45644",
+        "nbrBagages": "3",
+        "noClient": "781201"
+    },
+    {
+        "nom": "Lavoisier",
+        "prenom": "Antoine",
+        "nVol": "45644",
+        "nbrBagages": "1",
+        "noClient": "785154"
+    },
+    {
+        "nom": "Einstein",
+        "prenom": "Albert",
+        "nVol": "75906",
+        "nbrBagages": "0",
+        "noClient": "75906"
+    }
+]
