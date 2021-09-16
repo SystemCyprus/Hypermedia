@@ -10,7 +10,7 @@ const Accueil = () => {
   )
 }
 
-const FAQ = (props) => {
+const Faq = (props) => {
   console.log(props);
   return (
     <div>
@@ -21,10 +21,10 @@ const FAQ = (props) => {
   )
 }
 
-const CGV = () => {
+const Cgv = () => {
   return (
     <div>
-      Je suis le CGV
+      Je suis le Cgv
     </div>
   )
 }
@@ -52,7 +52,7 @@ const CheckProps = (props) => {
       <button onClick={() => props.history.push({
         pathname: '/faq',
         state: { params: 'abcdef' }
-      })}>Aller sur la FAQ</button>
+      })}>Aller sur la Faq</button>
         
     </div>
   )
@@ -72,17 +72,17 @@ function App() {
               <NavLink activeClassName="lien-actif" activeStyle={{ color: "red", fontWeight: "bold" }} to="/" exact={true}>Accueil</NavLink>
             </li>
             <li>
-              <NavLink activeClassName="lien-actif" activeStyle={{ color: "red", fontWeight: "bold" }} to="/FAQ">FAQ</NavLink>
+              <NavLink activeClassName="lien-actif" activeStyle={{ color: "red", fontWeight: "bold" }} to="/FAQ">Faq</NavLink>
             </li>
             <li>
-              <NavLink activeClassName="lien-actif" activeStyle={{ color: "red", fontWeight: "bold" }} to="/CGV">CGV</NavLink>
+              <NavLink activeClassName="lien-actif" activeStyle={{ color: "red", fontWeight: "bold" }} to="/CGV">Cgv</NavLink>
             </li>
           </ul>
         </header>
         <Switch>
           <Route path="/" component={Accueil} exact={true} />
-          <Route path="/FAQ" component={FAQ} />
-          <Route path="/CGV" component={CGV} />
+          <Route path="/Faq" component={Faq} />
+          <Route path="/Cgv" component={Cgv} />
           <Route path="*" component={Page404} />
         </Switch>
       </BrowserRouter>
