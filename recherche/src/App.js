@@ -69,7 +69,7 @@ function App() {
           <h2>Menu</h2>
           <ul>
             <li>
-              <NavLink activeClassName="lien-actif" activeStyle={{ color: "red", fontWeight: "bold" }} to="/" exact={true}>Accueil</NavLink>
+              <NavLink activeClassName="lien-actif" activeStyle={{ color: "red", fontWeight: "bold" }} to="/" exact>Accueil</NavLink>
             </li>
             <li>
               <NavLink activeClassName="lien-actif" activeStyle={{ color: "red", fontWeight: "bold" }} to="/FAQ">Faq</NavLink>
