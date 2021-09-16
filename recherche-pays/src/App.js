@@ -80,7 +80,7 @@ function App() {
           </ul>
         </header>
         <Switch>
-          <Route path="/" component={Accueil} exact={true} />
+          <Route path="/" component={Accueil} exact />
           <Route path="/Faq" component={Faq} />
           <Route path="/Cgv" component={Cgv} />
           <Route path="*" component={Page404} />
