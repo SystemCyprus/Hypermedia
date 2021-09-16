@@ -83,7 +83,7 @@ function App() {
           <Route path="/" component={Accueil} exact />
           <Route path="/Faq" component={Faq} />
           <Route path="/Cgv" component={Cgv} />
-          <Route path="*" component={Page404} />
+          <Route path="*" component={Page404} ch />
         </Switch>
       </BrowserRouter>
     </React.Fragment>
