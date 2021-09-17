@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Container, Label, Input, Button, Card, Image } from "semantic-ui-react";
+import { Container, Label, Input, Button, Card, Image, Message } from "semantic-ui-react";
 
 const Recherche = (props) => {
     const [nom, setNom] = useState("");
@@ -36,7 +36,7 @@ const Recherche = (props) => {
             <Label pointing="right">Pays</Label>
             <Input type="text" value={nom} onChange={(e) => setNom(e.target.value)} />
             <Button onClick={onClick}>Rechercher les pays</Button>
-            {pays.length > 0 ? `Il y a ${pays.length} résultat(s)` : undefined}
+            {pays.length > 0 ? `Il y a ${pays.length} résultat(s)` : <Message warning >Il n'y a aucun résultat</Message>}
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", width: "100%" }}>
                 {pays.length > 0 ? renderPays() : undefined}
             </div>
