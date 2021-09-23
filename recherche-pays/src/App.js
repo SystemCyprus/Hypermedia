@@ -22,7 +22,7 @@ function App() {
           <Route path="/" component={Accueil} exact />
           <Route path="/Recherche" component={Recherche} />
           <Route path="/Pays" component={Pays} />
-          <Route path="*" component={Page404} ch />
+          <Route path="*" component={Page404} ch/>
         </Switch>
       </BrowserRouter>
     </React.Fragment>
