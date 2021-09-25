@@ -1,7 +1,6 @@
-import './App.css';
 import Animal from './composants/Animal';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <h1>Evaluation 1</h1>
@@ -11,5 +10,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
