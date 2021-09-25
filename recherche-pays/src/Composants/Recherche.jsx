@@ -23,7 +23,7 @@ const Recherche = (props) => {
     }
 
     const onClick = () => {
-        fetch(`https://restcountries.eu/rest/v2/name/${nom}?fields=name;alpha3Code;flag`)
+        fetch(`https://restcountries.com/rest/v2/name/${nom}?fields=name;alpha3Code;flag`)
             .then((response) => response.json())
             .then((donnees) => setPays(donnees))
             .catch((er) => setErreur(er));
@@ -40,6 +40,8 @@ const Recherche = (props) => {
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", width: "100%" }}>
                 {pays.length > 0 ? renderPays() : undefined}
             </div>
+        
+            {pays.message === "Page Not Found" ? <Message>test</Message>:undefined}
         </Container>
     )
 }
